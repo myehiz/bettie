@@ -761,6 +761,13 @@ position: absolute;
      padding-right: 0;
 }
 
+
+.six_box .six_probpx img {
+     max-width: 64px;
+     max-height: 64px;
+}
+
+
 .six_box .six_probpx span {
      color: #fff;
      font-size: 17px;
