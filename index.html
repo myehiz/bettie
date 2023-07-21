@@ -91,19 +91,20 @@
                      <div class="col-md-4">
                         <h1> <span class="blodark"> B_GLAD </span> </h1>
                      </div>
-                     <div class="col-md-4">
-                        <ul class="right_icon d_none1">
-                           <li><a href="#"><img src="images/shopping.png" alt="#"/></a> </li>
-                           <a href="#" class="order">Order Now</a> 
-                        </ul>
-                     </div>
+                     <form class="d-flex">
+                        <button class="btn btn-outline-dark" type="submit">
+                            <i class="bi-cart-fill me-1"></i>
+                            Cart
+                            <span class="badge bg-dark text-white ms-1 rounded-pill">0</span>
+                        </button>
+                    </form>
                   </div>
                </div>
             </div>
             <div class="header_bottom">
-               <div class="container">
+               <div class="container-fluid">
                   <div class="row">
-                     <div class="col-xl-8 col-lg-8 col-md-8 col-sm-8">
+                     
                         <nav class="navigation navbar navbar-expand-md navbar-dark ">
                            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample04" aria-controls="navbarsExample04" aria-expanded="false" aria-label="Toggle navigation">
                            <span class="navbar-toggler-icon"></span>
@@ -123,27 +124,39 @@
                                     <a class="nav-link" href="fashion.html">Fashion</a>
                                  </li>
                                  <li class="nav-item">
-                                    <a class="nav-link" href="cart.html">Cart</a>
-                                 </li>
-                                 <li class="nav-item">
                                     <a class="nav-link" href="contact.html">Contact Us</a>
                                  </li>
                                  <li class="nav-item">
                                     <a class="nav-link" href="about.html">About</a>
                                  </li>
                                  <li class="nav-item">
-                                    <a class="nav-link" href="privacy.html">Privacy / Terms & Conditions</a>
+                                    <a class="nav-link" href="privacy.html">Terms & Conditions</a>
                                  </li>
-                              </ul>
+                                 <li class="nav-item">
+                                    <a class="nav-link" href="#">
+                                      <i class="fa fa-user" aria-hidden="true"></i>
+                                      <span>
+                                        Login
+                                      </span>
+                                    </a>
+                                  </li>
+                                  <li class="nav-item">
+                                    <a class="nav-link" href="#">
+                                      <i class="fa fa-user" aria-hidden="true"></i>
+                                      <span>
+                                        Sign Up
+                                      </span>
+                                    </a>
+                                  </li>
+                                  <form class="form-inline">
+                                    <button class="btn   nav_search-btn" type="submit">
+                                      <i class="fa fa-search" aria-hidden="true"></i>
+                                    </button>
+                                  </form>
+                                </ul>
                            </div>
                         </nav>
                      </div>
-                     <div class="col-md-4">
-                        <div class="search">
-                           <form action="/action_page.php">
-                              <input class="form_sea" type="text" placeholder="Search" name="search">
-                              <button type="submit" class="seach_icon"><i class="fa fa-search"></i></button>
-                           </form>
                         </div>
                      </div>
                   </div>
@@ -179,31 +192,31 @@
             <div class="row">
                <div class="col-md-2 col-sm-4 pa_left">
                   <div class="six_probpx yellow_bg">
-                     <i><img src="images/sew.png" alt="#"/></i>
+                     <i><img width="64px" height="64px" src="images/sew.png" alt="#"/></i>
                      <span>unisex seamstress</span>
                   </div>
                </div>
                <div class="col-md-2 col-sm-4 pa_left">
                   <div class="six_probpx bluedark_bg">
-                     <i><img src="images/senator.jpg" alt="#"/></i>
+                     <i><img width="64px" height="64px" src="images/senator.jpg" alt="#"/></i>
                      <span>fabrics</span>
                   </div>
                </div>
                <div class="col-md-2 col-sm-4 pa_left">
                   <div class="six_probpx yellow_bg">
-                     <i><img src="images/trouser.png" alt="#"/></i>
+                     <i><img width="64px" height="64px" src="images/trouser.png" alt="#"/></i>
                      <span>trouser</span>
                   </div>
                </div>
                <div class="col-md-2 col-sm-4 pa_left">
                   <div class="six_probpx bluedark_bg">
-                     <i><img src="images/shirt.png" alt="#"/></i>
+                     <i><img width="64px" height="64px" src="images/shirt.png" alt="#"/></i>
                      <span>shirt</span>
                   </div>
                </div>
                <div class="col-md-2 col-sm-4 pa_left">
                   <div class="six_probpx yellow_bg">
-                     <i><img src="images/gown.png" alt="#"/></i>
+                     <i><img width="64px" height="64px" src="images/gown.png" alt="#"/></i>
                      <span>gown</span>
                   </div>
                </div>
@@ -215,7 +228,7 @@
                </div>
                <div class="col-md-2 col-sm-4 pa_left">
                   <div class="six_probpx yellow_bg">
-                     <i><img src="images/perfume.png" alt="#"/></i>
+                     <i><img width="64px" height="64px" src="images/perfume.png" alt="#"/></i>
                      <span>perfume</span>
                   </div>
                </div>
@@ -237,7 +250,7 @@
             <div class="product_main">
              
                <div class="project_box">
-                  <div class="dark_white_bg" ><img  src="images/sew5.jpg" alt="#"/></div>
+                  <div class="dark_white_bg" ><img width="180px" height="165px"   src="images/sew5.jpg" alt="#"/></div>
                   <h3>We make unisex clothes that suit you</h3>
                </div>
               
@@ -253,23 +266,23 @@
               
             
                   <div class="project_box ">
-                     <div class="dark_white_bg" ><img  src="images/senator5.jpg" alt="#"/></div>
+                     <div class="dark_white_bg" ><img width="180px" height="200px"  src="images/senator5.jpg" alt="#"/></div>
                      <h3>Men Senators</h3>
                   </div>
               
                   <div class="project_box ">
-                     <div class="dark_white_bg" ><img  src="images/sleeve.jpg" alt="#"/></div>
+                     <div class="dark_white_bg" ><img width="180px" height="165px"  src="images/sleeve.jpg" alt="#"/></div>
                      <h3 >Vintage shirt</h3>
                   </div>
                
                   
                   <div class="project_box">
-                     <div class="dark_white_bg" ><img  src="images/2piece.jpg" alt="#"/></div>
+                     <div class="dark_white_bg" ><img width="180px" height="165px"  src="images/2piece.jpg" alt="#"/></div>
                      <h3>Kimono Jacket and Palazzo Trouser</h3>
                   </div>
                
                   <div class="project_box">
-                     <div class="dark_white_bg" ><img  src="images/gown.jpg" alt="#"/></div>
+                     <div class="dark_white_bg" ><img width="180px" height="165px"  src="images/gown.jpg" alt="#"/></div>
                      <h3>Corporate Gown</h3>
                   </div>
                
@@ -414,7 +427,6 @@
                            <li><a href="services.html">Services</a></li>
                            <li><a href="products.html">Products</a></li>
                            <li><a href="fashion.html">Fashion</a></li>
-                           <li><a href="cart.html">Cart</a></li>
                            <li><a href="contact.html">Contact Us</a></li>
                            <li><a href="about.html"> About</a></li>
                            <li><a href="privacy.html">Privacy / Terms & Conditions</a> </li>

@@ -217,6 +217,41 @@ button {
 /**-- heading section --**/
 
 
+
+.heading_container {
+     display: -webkit-box;
+     display: -moz-box;
+     display: -ms-flexbox;
+     display: flex;
+     -webkit-box-orient: vertical;
+     -webkit-box-direction: normal;
+        -moz-box-orient: vertical;
+        -moz-box-direction: normal;
+         -ms-flex-direction: column;
+             flex-direction: column;
+     -webkit-box-align: start;
+        -moz-box-align: start;
+         -ms-flex-align: start;
+             align-items: flex-start;
+   }
+   
+   .heading_container h2 {
+     position: relative;
+     text-transform: uppercase;
+     font-weight: bold;
+     margin-bottom: 0;
+   }
+   
+   .heading_container p {
+     margin-top: 10px;
+     margin-bottom: 0;
+   }
+   .about_section .about_img {
+     width: 100%;
+     border-radius: 15px;
+   }
+
+
 /*---------------------------- preloader area ----------------------------*/
 
 .loader_bg {
@@ -507,6 +542,10 @@ ul.social_icon li a:hover {
      color: #0d1015;
      font-size: 14px;
 }
+.d-flex {
+     display: flex !important;
+     margin-left: auto;
+   }
 
 .header_midil {
      padding: 22px 0;
@@ -597,7 +636,7 @@ ul.right_icon li img {
 }
 
 .search {
-     padding: 24px 0;
+     padding:  24px 0;
      text-align: right;
 }
 
@@ -845,6 +884,7 @@ margin: 0 15px 20px 15px;
 
 .fashion img {
      width: 100%;
+     height: 400px;
 }
 
 
@@ -1061,7 +1101,30 @@ margin: 0 15px 20px 15px;
 }
 
 
-/** about page **/
+/**  page **/
+
+.about {
+     position: relative;
+}
+
+.about_img {
+     overflow: hidden;
+}
+
+.about_img figure {
+     margin: 0;
+}
+
+.about_img figure img {
+     width: 100%;
+     transition: all .5s;
+}
+
+.about_img figure img:hover {
+     transform: scale(1.2);
+}
+
+
 
 .about_page .blue_bg .titlepage h2 {
      color: #fff;
@@ -1081,11 +1144,13 @@ margin: 0 15px 20px 15px;
      padding: 0;
 }
 
+
 .about_text p {
      color: #000;
      font-size: 17px;
      line-height: 30px;
      padding: 25px 0 40px 0;
+     text-align:initial;
 }
 
 .about_text .read_more {
